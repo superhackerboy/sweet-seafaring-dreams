@@ -1,3 +1,13 @@
 body {
   background-color: #282c34;
+  color: white;
 }
+
+.courier {
+  font-family: "Courier Prime", "Courier";
+}
+
+/*
+font-family: 'Courier Prime', 'Courier';
+font-family: 'Handlee', ;
+*/
