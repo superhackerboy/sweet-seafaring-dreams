@@ -7,6 +7,11 @@ body {
   font-family: "Courier Prime", "Courier";
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /*
 font-family: 'Courier Prime', 'Courier';
 font-family: 'Handlee', ;
