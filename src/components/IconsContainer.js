@@ -1,11 +1,13 @@
 import React from "react";
-import FirstThreeIcons from "./FirstThreeIcons";
-import LastIcon from "./LastIcon";
+import WeatherIcon from "./WeatherIcon";
 
 const IconsContainer = () => (
   <>
-    <FirstThreeIcons />
-    <LastIcon />
+    <WeatherIcon icon={<i className="fal fa-sun fa-5x" />} />
+    <WeatherIcon
+      icon={<i className="fal fa-cloud-sun fa-5x fa-flip-horizontal" />}
+    />
+    <WeatherIcon icon={<i className="fal fa-cloud fa-5x" />} />
   </>
 );
 
