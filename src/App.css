@@ -1,6 +1,7 @@
 body {
-  background-color: #282c34;
-  color: white;
+  background: url("https://i.imgur.com/WrDbVMp.png");
+  color: #1b1b1b;
+  color: rgba(20, 20, 20, 0.85);
 }
 
 .courier {
@@ -8,8 +9,8 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: inherit;
+  text-decoration: none;
 }
 
 /*

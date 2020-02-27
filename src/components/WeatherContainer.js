@@ -14,14 +14,16 @@ const kelvinToCelsius = k => {
 
 const WeatherContainer = props => (
   <>
-    <h1 className="courier">CURRENT WEATHER</h1>
+    <h1 className="courier">
+      <u>CURRENT WEATHER</u>
+    </h1>
     <WeatherDescription description={props.weather.weather[0].description} />
-    <IconsContainer />
+    <IconsContainer description={props.weather.weather[0].description} />
     <Temperature
       fahrenheit={kelvinToFahrenheit(props.weather.main.temp)}
       celsius={kelvinToCelsius(props.weather.main.temp)}
     />
-    {props.userTime > 18 ? (
+    {props.userTime >= 18 || props.userTime <= 4 ? (
       <Greeting message="Good night and sweet seafaring dreams" />
     ) : (
       <Greeting />
