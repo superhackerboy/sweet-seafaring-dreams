@@ -21,7 +21,11 @@ const WeatherContainer = props => (
       fahrenheit={kelvinToFahrenheit(props.weather.main.temp)}
       celsius={kelvinToCelsius(props.weather.main.temp)}
     />
-    <Greeting />
+    {props.userTime > 18 ? (
+      <Greeting message="Good night and sweet seafaring dreams" />
+    ) : (
+      <Greeting />
+    )}
   </>
 );
 
