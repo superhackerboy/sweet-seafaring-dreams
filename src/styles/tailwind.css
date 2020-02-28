@@ -1,5 +1,4 @@
 @tailwind base;
-
 :root {
   --fa-secondary-color: rgba(208, 88, 59, 0.85);
   --fa-secondary-opacity: 1;
@@ -18,24 +17,20 @@ button {
 }
 
 input[type="text"] {
+  width: 175px;
   background: transparent;
   border: none;
   border-bottom: 1px dashed rgba(20, 20, 20, 0.85);
 }
 
 h1 {
-  @apply text-2xl;
   font-family: "Courier Prime", "Courier";
   text-decoration: underline;
-}
-
-input[type="checkbox"]:checked {
-  background-color: red;
+  font-weight: bold;
 }
 
 .weather-condition {
   color: var(--fa-secondary-color);
-  font-weight: bold;
 }
 
 .temperature {
@@ -48,6 +43,5 @@ a {
   color: var(--fa-secondary-color);
   text-decoration: underline;
 }
-
 @tailwind components;
 @tailwind utilities;

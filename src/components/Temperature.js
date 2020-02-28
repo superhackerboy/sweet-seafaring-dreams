@@ -1,9 +1,9 @@
 import React from "react";
 
 const Temperature = props => (
-  <p>
-    <span className="temperature">{props.fahrenheit}</span>ºF /{" "}
-    <span className="temperature">{props.celsius}</span>ºC
+  <p className="flex justify-center">
+    <span className="temperature">{props.fahrenheit}</span>•F /{" "}
+    <span className="temperature">{props.celsius}</span>•C
   </p>
 );
 

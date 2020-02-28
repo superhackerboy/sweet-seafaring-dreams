@@ -1,10 +1,5 @@
 import React from "react";
 
-const WeatherIcon = props => (
-  <>
-    {props.icon}
-    {props.checkbox}
-  </>
-);
+const WeatherIcon = props => <div>{props.icon}</div>;
 
 export default WeatherIcon;
