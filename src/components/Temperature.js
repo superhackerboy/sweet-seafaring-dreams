@@ -2,7 +2,8 @@ import React from "react";
 
 const Temperature = props => (
   <p>
-    {props.fahrenheit}ºF / {props.celsius}ºC
+    <span className="handlee">{props.fahrenheit}</span>ºF /{" "}
+    <span className="handlee">{props.celsius}</span>ºC
   </p>
 );
 

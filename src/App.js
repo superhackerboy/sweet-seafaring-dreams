@@ -17,9 +17,9 @@ function App() {
   //   weather: [
   //     {
   //       id: 804,
-  //       main: "Clouds",
-  //       description: "overcast clouds",
-  //       icon: "04d"
+  //       main: "",
+  //       description: "poopy pants",
+  //       icon: "13d"
   //     }
   //   ],
   //   base: "stations",

@@ -14,11 +14,11 @@ const kelvinToCelsius = k => {
 
 const WeatherContainer = props => (
   <>
-    <h1 className="courier">
+    <h1>
       <u>CURRENT WEATHER</u>
     </h1>
     <WeatherDescription description={props.weather.weather[0].description} />
-    <IconsContainer description={props.weather.weather[0].description} />
+    <IconsContainer apiIcon={props.weather.weather[0].icon} />
     <Temperature
       fahrenheit={kelvinToFahrenheit(props.weather.main.temp)}
       celsius={kelvinToCelsius(props.weather.main.temp)}
