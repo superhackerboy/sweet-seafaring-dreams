@@ -1,4 +1,4 @@
-# Project Title
+# Sweet Seafaring Dreams
 
 A visually appealing weather forecaster.
 

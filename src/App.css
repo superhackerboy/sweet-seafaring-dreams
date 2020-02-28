@@ -5,14 +5,12 @@
 
 body {
   background: url("https://i.imgur.com/WrDbVMp.png");
-  color: #1b1b1b;
   color: rgba(20, 20, 20, 0.85);
 }
 
-input[type="text"],
-::placeholder,
-button {
-  font-size: 2rem;
+.weather-condition {
+  color: rgba(208, 88, 59, 0.85);
+  font-weight: bold;
 }
 
 input[type="text"] {
@@ -33,6 +31,7 @@ button {
 
 h1 {
   font-family: "Courier Prime", "Courier";
+  text-decoration: underline;
 }
 
 p,

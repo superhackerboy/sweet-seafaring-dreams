@@ -1,5 +1,7 @@
 import React from "react";
 
-const WeatherDescription = props => <p>{props.description}</p>;
+const WeatherDescription = props => (
+  <p className="weather-condition">{props.description}</p>
+);
 
 export default WeatherDescription;
