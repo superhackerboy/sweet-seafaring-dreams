@@ -9,7 +9,6 @@ body {
   color: rgba(20, 20, 20, 0.85);
 }
 
-p,
 input[type="text"],
 ::placeholder,
 button {
@@ -25,8 +24,6 @@ input[type="text"] {
 
 h1 {
   font-family: "Courier Prime", "Courier";
-  text-decoration: underline;
-  font-weight: bold;
 }
 
 .weather-condition {
@@ -39,9 +36,14 @@ h1 {
   font-weight: bold;
 }
 
+.courier {
+  font-family: "Courier";
+}
+
 a {
   color: var(--fa-secondary-color);
   text-decoration: underline;
 }
+
 @tailwind components;
 @tailwind utilities;

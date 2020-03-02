@@ -19,7 +19,7 @@ function App() {
         id: 804,
         main: "",
         description: "poopy pants",
-        icon: "10d"
+        icon: "03n"
       }
     ],
     base: "stations",
@@ -80,13 +80,18 @@ function App() {
   };
 
   return (
-    <div className="flex justify-center items-center flex-col h-screen">
-      <CityInput changeHandler={changeHandler} submitHandler={submitHandler} />
-      {weather === null ? null : (
-        <WeatherContainer weather={weather} userTime={getTime()} />
-      )}
+    <>
+      <div className="flex justify-center items-center flex-col h-screen">
+        <CityInput
+          changeHandler={changeHandler}
+          submitHandler={submitHandler}
+        />
+        {weather === null ? null : (
+          <WeatherContainer weather={weather} userTime={getTime()} />
+        )}
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

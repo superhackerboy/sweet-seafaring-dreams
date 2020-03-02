@@ -588,7 +588,6 @@ body {
   color: rgba(20, 20, 20, 0.85);
 }
 
-p,
 input[type="text"],
 ::placeholder,
 button {
@@ -604,8 +603,6 @@ input[type="text"] {
 
 h1 {
   font-family: "Courier Prime", "Courier";
-  text-decoration: underline;
-  font-weight: bold;
 }
 
 .weather-condition {
@@ -616,6 +613,10 @@ h1 {
   color: #6b6b6b;
   font-family: "Handlee";
   font-weight: bold;
+}
+
+.courier {
+  font-family: "Courier";
 }
 
 a {

@@ -14,7 +14,9 @@ const kelvinToCelsius = k => {
 
 const WeatherContainer = props => (
   <>
-    <h1>CURRENT WEATHER</h1>
+    <h1 className="underline font-bold text-xl">
+      {props.weather.name.toUpperCase()} WEATHER
+    </h1>
 
     <WeatherDescription description={props.weather.weather[0].description} />
 
