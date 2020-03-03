@@ -1,6 +1,6 @@
 import React from "react";
 import WeatherDescription from "./WeatherDescription";
-import IconsContainer from "./IconsContainer";
+import WeatherIcons from "./WeatherIcons";
 import Temperature from "./Temperature";
 import Greeting from "./Greeting";
 
@@ -21,7 +21,7 @@ const WeatherContainer = props => (
     <WeatherDescription description={props.weather.weather[0].description} />
 
     <div className="flex justify-around">
-      <IconsContainer apiIcon={props.weather.weather[0].icon} />
+      <WeatherIcons apiIcon={props.weather.weather[0].icon} />
     </div>
 
     <Temperature

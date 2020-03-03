@@ -3,7 +3,7 @@ import React from "react";
 const IconsContainer = props => (
   <div className="flex justify-center mb-4">
     {props.apiIcon === "01n" ? (
-      <i class="fad fa-moon-stars fa-4x p-2" />
+      <i className="fad fa-moon-stars fa-4x p-2" />
     ) : props.apiIcon === "01d" ? (
       <i className="fad fa-sun fa-4x p-2" />
     ) : (
@@ -11,11 +11,11 @@ const IconsContainer = props => (
     )}
 
     {props.apiIcon === "02n" ? (
-      <i class="fad fa-clouds-moon fa-4x p-2" />
+      <i className="fad fa-clouds-moon fa-4x p-2" />
     ) : props.apiIcon === "02d" ? (
-      <i class="fad fa-cloud-sun fa-4x p-2" />
+      <i className="fad fa-cloud-sun fa-4x p-2" />
     ) : (
-      <i class="fal fa-cloud-sun fa-4x p-2" />
+      <i className="fal fa-cloud-sun fa-4x p-2" />
     )}
 
     {props.apiIcon === "03d" ||
@@ -32,9 +32,9 @@ const IconsContainer = props => (
     props.apiIcon === "02d" ||
     props.apiIcon === "02n" ||
     props.apiIcon === "03d" ||
+    props.apiIcon === "03n" ||
     props.apiIcon === "04d" ||
-    props.apiIcon === "04d" ||
-    props.apiIcon === "03n" ? (
+    props.apiIcon === "04n" ? (
       <i className="fal fa-cloud-drizzle fa-4x p-2" />
     ) : null}
 
