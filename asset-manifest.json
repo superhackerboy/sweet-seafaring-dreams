@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sweet-seafaring-dreams/static/css/main.2cef6657.chunk.css",
+    "main.css": "/sweet-seafaring-dreams/static/css/main.406acf2a.chunk.css",
     "main.js": "/sweet-seafaring-dreams/static/js/main.f368a809.chunk.js",
     "main.js.map": "/sweet-seafaring-dreams/static/js/main.f368a809.chunk.js.map",
     "runtime-main.js": "/sweet-seafaring-dreams/static/js/runtime-main.f081f3ab.js",
@@ -8,15 +8,15 @@
     "static/js/2.7d20a2de.chunk.js": "/sweet-seafaring-dreams/static/js/2.7d20a2de.chunk.js",
     "static/js/2.7d20a2de.chunk.js.map": "/sweet-seafaring-dreams/static/js/2.7d20a2de.chunk.js.map",
     "index.html": "/sweet-seafaring-dreams/index.html",
-    "precache-manifest.dd71a707685c110e4bfc63ab4626b38d.js": "/sweet-seafaring-dreams/precache-manifest.dd71a707685c110e4bfc63ab4626b38d.js",
+    "precache-manifest.0a138193edc66ae1c1f74d810b715733.js": "/sweet-seafaring-dreams/precache-manifest.0a138193edc66ae1c1f74d810b715733.js",
     "service-worker.js": "/sweet-seafaring-dreams/service-worker.js",
-    "static/css/main.2cef6657.chunk.css.map": "/sweet-seafaring-dreams/static/css/main.2cef6657.chunk.css.map",
+    "static/css/main.406acf2a.chunk.css.map": "/sweet-seafaring-dreams/static/css/main.406acf2a.chunk.css.map",
     "static/js/2.7d20a2de.chunk.js.LICENSE.txt": "/sweet-seafaring-dreams/static/js/2.7d20a2de.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f081f3ab.js",
     "static/js/2.7d20a2de.chunk.js",
-    "static/css/main.2cef6657.chunk.css",
+    "static/css/main.406acf2a.chunk.css",
     "static/js/main.f368a809.chunk.js"
   ]
 }
