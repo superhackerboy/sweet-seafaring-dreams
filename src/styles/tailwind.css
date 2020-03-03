@@ -28,6 +28,7 @@ h1 {
 
 .weather-condition {
   color: var(--fa-secondary-color);
+  font-family: Courier;
 }
 
 .temperature {
