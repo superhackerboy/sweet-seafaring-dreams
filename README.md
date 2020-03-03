@@ -55,7 +55,7 @@ Data is pulled from two sources. OpenWeather's JSON list of 200,000 cities (`/sr
 
 ## Issues
 
-The original idea I had before creating this project was to use react-select, an NPM package used to display an updated dropdown search to sift through the 200,000 cities as the user is typing. However, the json list is too large for it to work properly. The user is now forced to enter the full name of their city without any typos. Even then, the json list will only return the first exact match. In cityList.json you can see that there are 13 results for the city "Paris".
+The original idea I had before creating this project was to use react-select, an NPM package used to display an updated dropdown search to sift through the 200,000 cities as the user is typing. However, the json list is too large for it to work properly. The user is now forced to enter the full name of their city without any typos. Even then, the json list will only return the first exact match (e.g. searching "Miami" will return a Miami in Manitoba, Canada).
 
 ## Installing
 
