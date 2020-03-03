@@ -59,7 +59,7 @@ The original idea I had before creating this project was to use react-select, an
 
 ## Installing
 
-Start Server
+Start server
 
 ```
 npm start
@@ -69,7 +69,7 @@ npm start
 
 - [React](http://reactjs.org/) - Javascript frontend framework
 - [OpenWeather](https://openweathermap.org/) - Weather API
-- [Tailwind CSS](https://tailwindcss.com)] - CSS framework
+- [Tailwind CSS](https://tailwindcss.com) - CSS framework
 - [Font Awesome](https://fontawesome.com) - Weather icons
 
 ## License
