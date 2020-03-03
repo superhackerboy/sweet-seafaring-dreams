@@ -2,7 +2,7 @@
   "name": "seafaring",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://superhackerboy.github.io/sweet-seafaring-dreams",
+  "homepage": "https://superhackerboy.github.io/sweet-seafaring-dreams/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
