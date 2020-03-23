@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sweet-seafaring-dreams/precache-manifest.e0e844c69e95b8bad410cd6779fcc99b.js"
+  "/sweet-seafaring-dreams/precache-manifest.b13677d91f85cf6d02be4bde5f0ac2ba.js"
 );
 
 self.addEventListener('message', (event) => {
