@@ -1,23 +1,25 @@
 import React, { useState, useEffect, useRef } from 'react';
-import TestForm from './components/TestForm';
+import CityInput from './components/CityInput';
+import WeatherContainer from './components/WeatherContainer';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
   const [address, setAddress] = useState('');
   const [geolocation, setGeolocation] = useState([]);
-  const [weather, setWeather] = useState([]);
+  const [weather, setWeather] = useState(null);
   const didMount = useRef(true);
 
   useEffect(() => {
     if (didMount.current) {
       didMount.current = false;
     } else {
-      const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${geolocation[0]}&lon=${geolocation[1]}&appid=14715648d5b5f1ec6117655c97b891de`;
+      const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${geolocation[1]}&lon=${geolocation[0]}&appid=14715648d5b5f1ec6117655c97b891de`;
 
       fetch(url)
         .then(res => res.json())
         .then(data => {
-          setWeather(data.list[1].weather);
+          setWeather(data.list[1]);
         });
     }
   }, [geolocation]);
@@ -44,7 +46,8 @@ function App() {
 
   return (
     <>
-      <TestForm changeHandler={changeHandler} submitHandler={submitHandler} />
+      <CityInput changeHandler={changeHandler} submitHandler={submitHandler} />
+      {weather === null ? null : <WeatherContainer weather={weather} />}
     </>
   );
 }
