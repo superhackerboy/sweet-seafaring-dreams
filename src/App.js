@@ -44,10 +44,20 @@ function App() {
       });
   };
 
+  const getTime = () => {
+    return new Date().getHours();
+  };
+
   return (
     <>
       <CityInput changeHandler={changeHandler} submitHandler={submitHandler} />
-      {weather === null ? null : <WeatherContainer weather={weather} />}
+      {weather === null ? null : (
+        <WeatherContainer
+          weather={weather}
+          location={address}
+          userTime={getTime()}
+        />
+      )}
     </>
   );
 }
