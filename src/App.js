@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import CityInput from './components/CityInput';
 import WeatherContainer from './components/WeatherContainer';
 import Footer from './components/Footer';
+import styled from 'styled-components';
 import './App.css';
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
           userTime={getTime()}
         />
       )}
+      <Footer />
     </>
   );
 }

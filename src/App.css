@@ -1,3 +1,15 @@
+:root {
+  --fa-secondary-color: rgba(208, 88, 59, 0.85);
+  --fa-secondary-opacity: 1;
+}
+
 body {
-  background-color: #faffe6;
+  background: url('https://i.imgur.com/WrDbVMp.png');
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+p {
 }
