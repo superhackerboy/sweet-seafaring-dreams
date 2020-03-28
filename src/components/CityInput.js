@@ -7,6 +7,7 @@ export default function CityInput(props) {
         onChange={props.changeHandler}
         type="text"
         placeholder="location"
+        className="input"
       />
       <button type="submit">Submit</button>
     </form>

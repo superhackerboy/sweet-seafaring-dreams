@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function WeatherIcons(props) {
   return (
-    <>
+    <div>
       {props.icon === '01d' || props.icon === '01n' ? (
         <i className="fad fa-sun fa-4x p-2" />
       ) : (
@@ -54,6 +54,6 @@ export default function WeatherIcons(props) {
       {props.icon === '50d' || props.icon === '50n' ? (
         <i className="fad fa-fog fa-4x p-2" />
       ) : null}
-    </>
+    </div>
   );
 }

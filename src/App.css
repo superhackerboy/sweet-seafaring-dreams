@@ -10,3 +10,39 @@ body {
 h5 {
   font-size: 1.5rem;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.weather-icon-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid black;
+  font-size: 1.2rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+
+* {
+  font-size: 30px;
+}
+
+@media (max-width: 600px) {
+  * {
+    font-size: 20px;
+  }
+}
