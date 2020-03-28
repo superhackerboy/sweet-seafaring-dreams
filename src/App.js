@@ -49,7 +49,7 @@ function App() {
   };
 
   return (
-    <>
+    <div className="center">
       <CityInput changeHandler={changeHandler} submitHandler={submitHandler} />
       {weather === null ? null : (
         <WeatherContainer
@@ -59,7 +59,7 @@ function App() {
         />
       )}
       <Footer />
-    </>
+    </div>
   );
 }
 

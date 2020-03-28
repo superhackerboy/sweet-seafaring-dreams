@@ -1,68 +1,76 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sweet Seafaring Dreams (WIP)
 
-## Available Scripts
+Entering a city will give you that city's current weather condition, associated weather icon and the temperature in Celsius and Fahrenheit. The words "Good night and sweet seafaring dreams" will appear on the page if the user's current time is between 18:00 and 04:00.
 
-In the project directory, you can run:
+Data is pulled from two sources. OpenWeather's JSON list of 200,000 cities (`/src/cityList.json`) where a city's name is matched with an ID. The ID is then used to call OpenWeather's API to get that city's current weather data.
 
-### `npm start`
+## Sample API Response
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+{
+  "coord": {
+    "lon": 167.31,
+    "lat": 9.18
+  },
+  "weather": [
+    {
+      "id": 701,
+      "main": "Mist",
+      "description": "mist",
+      "icon": "50d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 300.15,
+    "feels_like": 299.61,
+    "temp_min": 300.15,
+    "temp_max": 300.15,
+    "pressure": 1012,
+    "humidity": 88
+  },
+  "visibility": 4828,
+  "wind": {
+    "speed": 9.8,
+    "deg": 50,
+    "gust": 13.9
+  },
+  "clouds": {
+    "all": 90
+  },
+  "dt": 1583183974,
+  "sys": {
+    "type": 1,
+    "id": 7889,
+    "country": "MH",
+    "sunrise": 1583175836,
+    "sunset": 1583218911
+  },
+  "timezone": 43200,
+  "id": 7303502,
+  "name": "Kwajalein Atoll",
+  "cod": 200
+}
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Issues
 
-### `npm test`
+The original idea I had before creating this project was to use react-select, an NPM package used to display an updated dropdown search to sift through the 200,000 cities as the user is typing. However, the json list is too large for it to work properly. The user is now forced to enter the full name of their city without any typos. Even then, the json list will only return the first exact match (e.g. searching "Miami" will return a Miami in Manitoba, Canada).
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installing
 
-### `npm run build`
+Start Server
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm start
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [React](http://reactjs.org/) - Javascript frontend framework
+- [OpenWeather](https://openweathermap.org/) - Weather API
+- [Font Awesome](https://fontawesome.com) - Weather icons
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is licensed under the [MIT License](LICENSE).
