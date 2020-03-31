@@ -9,7 +9,9 @@ export default function CityInput(props) {
         placeholder="location"
         className="input"
       />
-      <button type="submit">Submit</button>
+      <button type="submit" className="button">
+        Submit
+      </button>
     </form>
   );
 }

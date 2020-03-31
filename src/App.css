@@ -3,6 +3,11 @@
   --fa-secondary-opacity: 1;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   background: url('https://i.imgur.com/WrDbVMp.png');
 }
@@ -28,13 +33,35 @@ h5 {
   padding: 10px;
   border-radius: 5px;
   box-shadow: none;
-  border: 1px solid black;
+  border: 2px solid black;
   font-size: 1.2rem;
+}
+
+button {
+  margin: 0px 25px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: none;
+  border: 2px solid black;
+  font-size: 1.2rem;
+}
+
+.button:hover {
+  background-color: rgba(208, 88, 59, 0.85);
+  color: white;
+  cursor: pointer;
+}
+
+.fad,
+.fal {
+  margin: 0px 15px;
 }
 
 .footer {
   position: absolute;
   bottom: 0;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
 }
 
 * {

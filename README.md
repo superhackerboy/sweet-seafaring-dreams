@@ -1,8 +1,6 @@
-# Sweet Seafaring Dreams (WIP)
+# Sweet Seafaring Dreams
 
-Entering a city will give you that city's current weather condition, associated weather icon and the temperature in Celsius and Fahrenheit. The words "Good night and sweet seafaring dreams" will appear on the page if the user's current time is between 18:00 and 04:00.
-
-Data is pulled from two sources. OpenWeather's JSON list of 200,000 cities (`/src/cityList.json`) where a city's name is matched with an ID. The ID is then used to call OpenWeather's API to get that city's current weather data.
+Entering a city will give you that city's weather conditions tomorrow, associated weather icon and the temperature in Celsius and Fahrenheit. The words "Good night and sweet seafaring dreams" will appear on the page if the user's current time is between 18:00 and 04:00.
 
 ## Sample API Response
 
@@ -53,10 +51,6 @@ Data is pulled from two sources. OpenWeather's JSON list of 200,000 cities (`/sr
 }
 ```
 
-## Issues
-
-The original idea I had before creating this project was to use react-select, an NPM package used to display an updated dropdown search to sift through the 200,000 cities as the user is typing. However, the json list is too large for it to work properly. The user is now forced to enter the full name of their city without any typos. Even then, the json list will only return the first exact match (e.g. searching "Miami" will return a Miami in Manitoba, Canada).
-
 ## Installing
 
 Start Server
@@ -69,6 +63,7 @@ npm start
 
 - [React](http://reactjs.org/) - Javascript frontend framework
 - [OpenWeather](https://openweathermap.org/) - Weather API
+- [Mapbox](https://openweathermap.org/) - Geolocation
 - [Font Awesome](https://fontawesome.com) - Weather icons
 
 ## License
