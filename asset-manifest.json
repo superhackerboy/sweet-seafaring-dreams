@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/sweet-seafaring-dreams/static/css/main.3b080ba4.chunk.css",
-    "main.js": "/sweet-seafaring-dreams/static/js/main.3e229417.chunk.js",
-    "main.js.map": "/sweet-seafaring-dreams/static/js/main.3e229417.chunk.js.map",
+    "main.css": "/sweet-seafaring-dreams/static/css/main.22f3ba54.chunk.css",
+    "main.js": "/sweet-seafaring-dreams/static/js/main.03236ce5.chunk.js",
+    "main.js.map": "/sweet-seafaring-dreams/static/js/main.03236ce5.chunk.js.map",
     "runtime-main.js": "/sweet-seafaring-dreams/static/js/runtime-main.ec737f7f.js",
     "runtime-main.js.map": "/sweet-seafaring-dreams/static/js/runtime-main.ec737f7f.js.map",
     "static/js/2.5f5c2d29.chunk.js": "/sweet-seafaring-dreams/static/js/2.5f5c2d29.chunk.js",
     "static/js/2.5f5c2d29.chunk.js.map": "/sweet-seafaring-dreams/static/js/2.5f5c2d29.chunk.js.map",
     "index.html": "/sweet-seafaring-dreams/index.html",
-    "precache-manifest.b13677d91f85cf6d02be4bde5f0ac2ba.js": "/sweet-seafaring-dreams/precache-manifest.b13677d91f85cf6d02be4bde5f0ac2ba.js",
+    "precache-manifest.5ca8eb100d2eb210024b0e79058ee422.js": "/sweet-seafaring-dreams/precache-manifest.5ca8eb100d2eb210024b0e79058ee422.js",
     "service-worker.js": "/sweet-seafaring-dreams/service-worker.js",
-    "static/css/main.3b080ba4.chunk.css.map": "/sweet-seafaring-dreams/static/css/main.3b080ba4.chunk.css.map",
+    "static/css/main.22f3ba54.chunk.css.map": "/sweet-seafaring-dreams/static/css/main.22f3ba54.chunk.css.map",
     "static/js/2.5f5c2d29.chunk.js.LICENSE.txt": "/sweet-seafaring-dreams/static/js/2.5f5c2d29.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ec737f7f.js",
     "static/js/2.5f5c2d29.chunk.js",
-    "static/css/main.3b080ba4.chunk.css",
-    "static/js/main.3e229417.chunk.js"
+    "static/css/main.22f3ba54.chunk.css",
+    "static/js/main.03236ce5.chunk.js"
   ]
 }
